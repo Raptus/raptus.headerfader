@@ -25,6 +25,7 @@ setup(name='raptus.headerfader',
       install_requires=[
           'setuptools',
           'raptus.header',
+          'raptus.inlinelightbox',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
