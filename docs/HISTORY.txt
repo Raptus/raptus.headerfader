@@ -1,7 +1,12 @@
 Changelog
 =========
 
-1.0a1 - (12-01-2010)
+1.0b1 - (2011-03-07)
+--------------------
+
+* Added disable/enable functionality
+
+1.0a1 - (2010-01-12)
 --------------------
 
 * Initial release

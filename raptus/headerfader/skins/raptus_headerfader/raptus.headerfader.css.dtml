@@ -1,8 +1,5 @@
 /* <dtml-with base_properties> (do not remove this :) */
-
-#portal-content-headerfader {
-  text-align:center;
-}
+/* <dtml-call "REQUEST.set('width', portal_properties.site_properties.header_width)"> (not this either :) */
 
 #portal-content-headerfader ul {
   margin:0;
