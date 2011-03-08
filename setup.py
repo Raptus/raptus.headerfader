@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0b1'
+version = '1.0b2'
 
 setup(name='raptus.headerfader',
       version=version,
@@ -24,7 +24,7 @@ setup(name='raptus.headerfader',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'raptus.header>=2.0b4',
+          'raptus.header>=2.0b6',
           'raptus.inlinelightbox',
           # -*- Extra requirements: -*-
       ],

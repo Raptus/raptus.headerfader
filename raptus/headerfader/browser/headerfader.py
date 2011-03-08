@@ -29,12 +29,14 @@ class HeaderFaderViewlet(HeaderViewlet):
         if not len(brains):
             return
         random = choice(brains)
+        w = self.props.getProperty('header_width', 0)
+        h = self.props.getProperty('header_height', 0)
         for brain in brains:
             obj = brain.getObject()
             scales = getMultiAdapter((obj, self.request), name='images')
             scale = scales.scale('image',
-                                 width=(self.props.getProperty('header_width', 1000000)),
-                                 height=(self.props.getProperty('header_height', 1000000)))
+                                 width=(w and w or 1000000),
+                                 height=(h and h or 1000000))
             if scale is None:
                 continue
             images.append({'image': scale.url,
