@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0b3 (2011-09-15)
+------------------
+
+* Added condition to prevent an empty DIV to be rendered if no header image and no info message is available
+
 1.0b2 (2011-03-08)
 ------------------
 
