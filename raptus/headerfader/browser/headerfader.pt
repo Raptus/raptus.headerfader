@@ -7,7 +7,7 @@
       tal:omit-tag="">
   <div id="portal-content-headerfader"
        class="portal-content-header inlinelightbox"
-       tal:condition="python: view.hasImage or view.info()"
+       tal:condition="python: view.images or view.info()"
        tal:define="cls python:view.images and 'portal-content-header-withimage' or ''"
        tal:attributes="class string:portal-content-header inlinelightbox ${cls}"
        i18n:domain="raptus.headerfader">
