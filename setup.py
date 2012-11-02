@@ -6,7 +6,7 @@ version = '1.0b4'
 setup(name='raptus.headerfader',
       version=version,
       description="Provides a header viewlet based on raptus.header which fades between the available images",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='raptus.headerfader',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.headerfader',
+      url='https://github.com/Raptus/raptus.headerfader',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus'],
